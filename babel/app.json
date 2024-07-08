@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "مكتبة بابل",
+    "slug": "babel",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.karim_13.babel"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@config-plugins/react-native-blob-util",
+      "@config-plugins/react-native-pdf",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/mcs-diwany-jaly-s-u.ttf",
+            "./assets/fonts/adwa-assalaf Bold/adwa-assalaf Bold.ttf",
+            "./assets/fonts/ae_Rasheeq Bold/ae_Rasheeq Bold.ttf",
+            "./assets/fonts/abo2sadam Regular/abo2sadam Regular.ttf",
+            "./assets/fonts/KFGQPC Uthmanic Script HAFS Regular/KFGQPC Uthman Taha Naskh Regular.ttf",
+            "./assets/fonts/en/AlexBrush-Regular.ttf",
+            "./assets/fonts/en/england.ttf",
+            "./assets/fonts/en/CormorantGaramond-Regular.otf"
+          ]
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "34853a27-95f3-49ec-8f68-3f65258ae8c9"
+      }
+    }
+  }
+}
