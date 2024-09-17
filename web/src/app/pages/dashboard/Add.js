@@ -115,11 +115,11 @@ const Add = ({ Books, setBooks, setIsAdding, getBooks }) => {
 
   const handleAddchapters = () => {
     if (chapterName && chapterImg) {
-      const newBook = { name: chapterName, img: chapterImg, pdf: chapterSrc };
+      const newBook = { name: chapterName, img: chapterImg, src: chapterSrc };
       setchapters([...chapters, newBook]);
       setChapterName("");
       setchapterImg("");
-      setchapterImg("");
+      setchapterSrc("");
     } else {
       Swal.fire({
         icon: "error",
